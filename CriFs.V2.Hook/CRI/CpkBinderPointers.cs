@@ -937,7 +937,7 @@ internal static class CpkBinderPointers
             versionOfs =>
             {
                 // PC String
-                var version = Marshal.PtrToStringAnsi(baseAddr + (nint)versionOfs)!.TrimEnd('\n');
+                var version = Marshal.PtrToStringAnsi(baseAddr + (nint)versionOfs)!.Trim('\n');
                 
                 // Identify all instances of CriPointerScanInfo with the largest number of successful matches.
                 var candidateImplementations = new List<CriPointerScanInfo> { };
