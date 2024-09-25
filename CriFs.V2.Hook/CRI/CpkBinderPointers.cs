@@ -570,9 +570,9 @@ internal static class CpkBinderPointers
                 },
                 new()
                 {
-                    SourcedFrom = "Metaphor Re:Fantazio",
+                    SourcedFrom = "Metaphor: ReFantazio",
                     CriVersion = "CRI File System/PCx64 Ver.2.85.1 Build:Oct  2 2023 10:26:25",
-                    CriCompiler = "MSC19.16.27045.0,MT",
+                    CriCompiler = "MSC19.16.27048.0,MT",
                     Patterns = new CriPointerPatterns
                     {
                         CriFs_CalculateWorkSizeForLibrary =
