@@ -577,7 +577,7 @@ internal static class CpkBinderPointers
                     {
                         CriFs_CalculateWorkSizeForLibrary =
                             "48 89 5C 24 ?? 48 89 74 24 ?? 55 57 41 54 41 56 41 57 48 8D 6C 24 ?? 48 81 EC A0 00 00 00 48 8B 05 ?? ?? ?? ??",
-                        CriFs_InitializeLibrary = "4C 8B DC 49 89 5B ?? 49 89 6B ?? 49 89 7B ?? 41 56 48 83 EC 60",
+                        CriFs_InitializeLibrary = "49 89 E3 49 89 5B ?? 49 89 6B ?? 49 89 7B",
                         CriFs_FinalizeLibrary = "48 83 EC 28 83 3D ?? ?? ?? ?? 00 75 ?? 48 8D 15 ?? ?? ?? ?? 33 C9 E8 ?? ?? ?? ?? 83 C8 FF E9 ?? ?? ?? ??",
                         CriFsBinder_BindCpk = "48 83 EC 48 48 8B 44 24 ?? C7 44 24 ?? 01 00 00 00",
                         CriFsBinder_BindFile =
@@ -587,9 +587,10 @@ internal static class CpkBinderPointers
                         CriFsBinder_Find =
                             "48 89 5C 24 ?? 48 89 6C 24 ?? 48 89 74 24 ?? 57 48 83 EC 40 49 8B F9 49 8B D8 48 8B F2",
                         CriFsBinder_GetSizeForBindFiles = "48 89 5C 24 ?? 48 89 74 24 ?? 57 48 81 EC 50 04 00 00 48 8B 05 ?? ?? ?? ??",
-                        CriFsBinder_GetStatus = "48 89 5C 24 ?? 57 48 83 EC 20 48 8B DA 8B F9 85 C9",
+                        CriFsBinder_GetStatus = "48 89 5C 24 ?? 57 48 83 EC 20 48 89 D3 89 CF 85 C9",
                         CriFsBinder_SetPriority =
                             "48 89 5C 24 ?? 57 48 83 EC 20 8B FA E8 ?? ?? ?? ?? 48 8B D8 48 85 C0 75 ?? 8D 58 ??",
+                        
                         CriFsBinder_Unbind = "48 89 5C 24 ?? 57 48 83 EC 20 8B F9 E8 ?? ?? ?? ?? 48 8B D8",
 
                         CriFsLoader_RegisterFile = "48 8B C4 48 89 58 ?? 48 89 70 ?? 4C 89 60 ??",
